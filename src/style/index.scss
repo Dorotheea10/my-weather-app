@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  main {
+    min-height: 70vh;
+    text-align: center;
+    .articleImg {
+      width: 80%;
+      margin: 5em 2em 5em 4em;
+    }
+    .contacts {
+      margin: 5em;
+    }
+  }
+
+  footer {
+    text-align: center;
+    margin-top: auto;
+  }
+}
